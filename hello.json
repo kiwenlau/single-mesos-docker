@@ -1,7 +1,7 @@
-{  
+{
   "id": "hello",
-    "cmd": "while [ true ] ; do echo hello >> /tmp/output.txt; sleep 2; done",
-    "cpus": 0.1,
-    "mem": 10.0,
-    "instances": 1
+  "cmd": "while [ true ] ; do echo hello >> /root/output.txt; sleep 1; done",
+  "cpus": 0.1,
+  "mem": 10.0,
+  "instances": 1
 }

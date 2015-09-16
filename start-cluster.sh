@@ -2,7 +2,7 @@
 
 # Start ZooKeeper
 echo "Start ZooKeeper..."
-sudo service zookeeper restart 
+exec sudo service zookeeper restart >>/dev/null & 
 
 # Start Mesos master
 echo "Start Mesos master..."
@@ -14,4 +14,4 @@ exec /usr/sbin/mesos-slave --master=zk://127.0.0.1:2181/mesos --log_dir=/log/mes
 
 # Start Marathon
 echo "Start Marathon..."
-exec sudo service marathon start 
+exec sudo service marathon start >>/dev/null &
