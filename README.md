@@ -170,7 +170,7 @@ sudo docker run -p 5050:5050 -p 8080:8080 --name mesos -it -w /root index.alauda
 
 转载时请注明作者[KiwenLau](http://kiwenlau.com/)以及本文URL地址：
 
-[http://kiwenlau.com/2015/09/18/150918-single-mesos-docker/](http://kiwenlau.com/2015/09/18/150918-hadoop-mesos-docker/)
+[http://kiwenlau.com/2015/09/18/150918-single-mesos-docker/](http://kiwenlau.com/2015/09/18/150918-single-mesos-docker/)
 ***
 
 
