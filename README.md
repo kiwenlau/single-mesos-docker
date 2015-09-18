@@ -16,7 +16,7 @@
 
 ##一. 简介
 
-[Mesos](http://mesos.apache.org)集群资源管理系统，[Marathon](http://mesosphere.github.io/marathon)是运行在Mesos之上的集群计算架构。将Mesos和Marathon打包到[Docker](https://www.docker.com/)镜像中，开发者便可以在本机上快速搭建Mesos/Marathon集群，进行学习和测试。
+[Mesos](http://mesos.apache.org)是集群资源管理系统，[Marathon](http://mesosphere.github.io/marathon)是运行在Mesos之上的集群计算架构。将Mesos和Marathon打包到[Docker](https://www.docker.com/)镜像中，开发者便可以在本机上快速搭建Mesos/Marathon集群，进行学习和测试。
 
 **kiwenlau/single-mesos**镜像非常简单。Docker容器运行在Ubuntu主机之上，Mesos和Marathon运行在该容器之中。具体来讲，Docker容器中运行了一个Mesos Master和一个Mesos Slave，以及Marathon和[ZooKeeper](https://zookeeper.apache.org/)。集群架构如下图：
 
