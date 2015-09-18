@@ -20,7 +20,7 @@
 
 **kiwenlau/single-mesos**镜像非常简单。Docker容器运行在Ubuntu主机之上，Mesos和Marathon运行在该容器之中。具体来讲，Docker容器中运行了一个Mesos Master和一个Mesos Slave，以及Marathon和[ZooKeeper](https://zookeeper.apache.org/)。集群架构如下图：
 
-![](/image/150918/architecuture.png)
+![](https://github.com/kiwenlau/hadoop-cluster-docker/raw/master/image/architecuture.png)
 
 
 ##二. 搭建Mesos/Marathon集群
@@ -111,20 +111,19 @@ Mesos网页管理界面地址：[http://192.168.59.10:5050](http://192.168.59.10
 
 Mesos网页管理界面如图，可知hello程序正在运行：
 
-![](/image/150918/Mesos.png)
+![](https://github.com/kiwenlau/hadoop-cluster-docker/raw/master/image/Mesos.png)
 
 Marathon网页管理界面地址：[http://192.168.59.10:8080](http://192.168.59.10:8080)
 
 Marathon网页管理界面如图，可知hello程序正在运行：
 
-![](/image/150918/Marathon.png)
+![](https://github.com/kiwenlau/hadoop-cluster-docker/raw/master/image/Marathon.png)
 
 **4. 通过Marathon网页管理界面创建测试程序**
 
 在Marathon的网页管理界面上点击"New APP"，在弹框中配置测试程序。ID为"hello", Command为"echo hello >> /root/output.txt", 然后点击"Create"即可。如下图：
 
-![](/image/150918/hello.png)
-
+![](https://github.com/kiwenlau/hadoop-cluster-docker/raw/master/image/hello.png)
 
 ##四. 存在的问题
 
